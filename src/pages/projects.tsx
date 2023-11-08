@@ -5,10 +5,10 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 
 const Projects = () => {
-    const router = useRouter();
+  const router = useRouter();
   return (
     <div className="w-full min-h-screen h-fit bg-gradient-to-b from-[#14121C] to-black">
-      <div className="fixed top-0 w-full">
+      <div className="fixed top-0 w-full z-[999]">
         <Navbar />
       </div>
       <div className="flex flex-col gap-20 items-center pt-20 p-4">
@@ -17,9 +17,12 @@ const Projects = () => {
         </div>
         <div className="w-full flex flex-col lg:flex lg:flex-row justify-center gap-20">
           <Tilt className="cursor-pointer">
-            <div className="bg-purple-950 rounded-2xl p-4 flex flex-col gap-5 items-center" onClick={() => {
-                router.push("https://github.com/Manaya20/airradar")
-            }}>
+            <div
+              className="bg-purple-950 rounded-2xl p-4 flex flex-col gap-5 items-center"
+              onClick={() => {
+                router.push("https://github.com/Manaya20/airradar");
+              }}
+            >
               <div>
                 <Image
                   className="rounded-lg"
@@ -39,9 +42,12 @@ const Projects = () => {
             </div>
           </Tilt>
           <Tilt className="cursor-pointer">
-            <div className="bg-purple-950 rounded-2xl p-4 flex flex-col gap-5 items-center" onClick={() => {
-                router.push("https://github.com/Manaya20/Kickology")
-            }}>
+            <div
+              className="bg-purple-950 rounded-2xl p-4 flex flex-col gap-5 items-center"
+              onClick={() => {
+                router.push("https://github.com/Manaya20/Kickology");
+              }}
+            >
               <div>
                 <Image
                   className="rounded-lg"
