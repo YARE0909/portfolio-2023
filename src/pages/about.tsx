@@ -46,7 +46,7 @@ const About = () => {
             experience
           </h1>
           <div className="w-full flex flex-col lg:flex lg:flex-row justify-between gap-10 p-4 lg:p-20">
-            <div className="flex flex-col items-start lg:items-center max-w-screen-sm w-full">
+            <div className="flex flex-col items-start lg:items-center max-w-screen-sm w-full pt-5 lg:pt-0">
               <div>
                 <h1 className="text-white font-bold text-4xl">education</h1>
               </div>
