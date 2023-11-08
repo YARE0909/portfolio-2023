@@ -36,8 +36,10 @@ const Projects = () => {
                 <h1 className="font-bold text-4xl">Airradar</h1>
               </div>
               <div>
-                This project is a small scale model which depicts the actual
-                working of the Air Traffic Control.
+                <h1 className="text-center">
+                  This project is a small scale model which depicts the actual
+                  working of the Air Traffic Control.
+                </h1>
               </div>
             </div>
           </Tilt>
@@ -61,8 +63,10 @@ const Projects = () => {
                 <h1 className="font-bold text-4xl">Kickology</h1>
               </div>
               <div>
-                This project is a small scale model which depicts the actual
-                working of the Air Traffic Control.
+                <h1 className="text-center">
+                  This project is a small scale model which depicts the actual
+                  working of the Air Traffic Control.
+                </h1>
               </div>
             </div>
           </Tilt>
