@@ -13,7 +13,7 @@ const Projects = () => {
       </div>
       <div className="flex flex-col gap-20 items-center pt-20 p-4">
         <div>
-          <h1 className="text-8xl text-white font-bold">my projects</h1>
+          <h1 className="text-8xl text-white font-bold">My Projects</h1>
         </div>
         <div className="w-full flex flex-col lg:flex lg:flex-row justify-center gap-20">
           <Tilt className="cursor-pointer">

@@ -12,7 +12,7 @@ const About = () => {
         <div className="flex flex-col items-center gap-5">
           <div className="w-full h-full flex-1 flex pt-20 flex-col items-center justify-start">
             <h1 className="text-white font-bold text-6xl lg:text-8xl">
-              about me
+              About Me
             </h1>
           </div>
           <div className="max-w-6xl w-full">
@@ -28,7 +28,11 @@ const About = () => {
             </h1>
           </div>
           <div>
-            <a className="border-b-2 border-b-white" href="/manaya.pdf" download>
+            <a
+              className="border-b-2 border-b-white"
+              href="/manaya.pdf"
+              download
+            >
               My Resume
             </a>
           </div>
@@ -48,7 +52,7 @@ const About = () => {
       <section className="min-h-screen h-fit">
         <div className="w-full h-full flex-1 flex pt-20 flex-col items-center justify-start">
           <h1 className="text-white font-bold text-6xl lg:text-8xl">
-            experience
+            Experience
           </h1>
           <div className="w-full flex flex-col lg:flex lg:flex-row justify-between gap-10 p-4 lg:p-20">
             <div className="flex flex-col items-start lg:items-center max-w-screen-sm w-full pt-5 lg:pt-0">
@@ -56,7 +60,7 @@ const About = () => {
                 <h1 className="text-white font-bold text-4xl">education</h1>
               </div>
               <div className="flex flex-col gap-5 pt-10">
-                <div className="p-2 rounded-lg">
+                <div className="rounded-lg">
                   <h1 className="text-gray-400 font-bold">2015-2022</h1>
                   <h1 className="text-white font-bold text-2xl">
                     Navrachana School Sama
@@ -64,7 +68,7 @@ const About = () => {
                   <h1>Vadodara, India</h1>
                   <h1 className="font-bold text-xl">High School Diploma</h1>
                 </div>
-                <div className="p-2 rounded-lg">
+                <div className="rounded-lg">
                   <h1 className="text-gray-400 font-bold">2022-2026</h1>
                   <h1 className="text-white font-bold text-2xl">
                     SRM Institute of Science and Technology (SRMIST)
