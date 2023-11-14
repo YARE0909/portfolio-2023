@@ -53,7 +53,7 @@ const Projects = () => {
               <div>
                 <Image
                   className="rounded-lg"
-                  src="/project1.png"
+                  src="/project2.jpeg"
                   alt=""
                   width={500}
                   height={500}

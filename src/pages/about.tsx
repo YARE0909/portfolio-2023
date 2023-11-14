@@ -27,6 +27,11 @@ const About = () => {
               to my work of interest, along with a huge passion for caffeine .
             </h1>
           </div>
+          <div>
+            <a className="border-b-2 border-b-white" href="/manaya.pdf" download>
+              My Resume
+            </a>
+          </div>
         </div>
         <div className="w-full flex justify-center gap-10 pt-10">
           <div>
