@@ -57,7 +57,7 @@ const About = () => {
           <div className="w-full flex flex-col lg:flex lg:flex-row justify-between gap-10 p-4 lg:p-20">
             <div className="flex flex-col items-start lg:items-center max-w-screen-sm w-full pt-5 lg:pt-0">
               <div>
-                <h1 className="text-white font-bold text-4xl">education</h1>
+                <h1 className="text-white font-bold text-4xl">Education</h1>
               </div>
               <div className="flex flex-col gap-5 pt-10">
                 <div className="rounded-lg">
@@ -84,7 +84,7 @@ const About = () => {
             <div className="flex flex-col items-start lg:items-center max-w-screen-sm w-full">
               <div>
                 <h1 className="text-white font-bold text-4xl">
-                  technical skills
+                  Technical Skills
                 </h1>
               </div>
               <div className="flex flex-col gap-5 pt-10">
@@ -110,7 +110,7 @@ const About = () => {
             </div>
             <div className="flex flex-col items-start lg:items-center max-w-screen-sm w-full">
               <div>
-                <h1 className="text-white font-bold text-4xl">experience</h1>
+                <h1 className="text-white font-bold text-4xl">Experience</h1>
               </div>
               <div className="flex flex-col gap-5 pt-10">
                 <div>
