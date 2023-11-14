@@ -64,8 +64,8 @@ const Projects = () => {
               </div>
               <div>
                 <h1 className="text-center">
-                  This project is a small scale model which depicts the actual
-                  working of the Air Traffic Control.
+                  For the people who are obsessed with kicks and money, a retail
+                  site where you can find classic kicks in your budget
                 </h1>
               </div>
             </div>
